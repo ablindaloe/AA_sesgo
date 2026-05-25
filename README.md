@@ -2,7 +2,7 @@
 
 Proyecto de la asignatura **Aprendizaje Avanzado** (3.º curso, Ingeniería en IA) sobre el sesgo intrínseco del dataset judicial **COMPAS**.
 
-**Autores:** Stefania Bianchi · Alex Garre · Carla Milán · Alejandro Conesa
+**Autores:** Stefania Bianchi · Carla Milán · Alejandro Conesa · Alex Garre 
 
 ---
 
@@ -93,12 +93,6 @@ jupyter notebook proyecto_aa_sesgo.ipynb
 3. Añade una celda **al inicio** del notebook con:
 
    ```python
-   !pip install -q -r https://raw.githubusercontent.com/<usuario>/<repo>/main/requirements.txt
-   ```
-
-   Si no quieres usar el `requirements.txt` remoto, equivalentemente:
-
-   ```python
    !pip install -q fairlearn==0.12.0 shap==0.46.0 xgboost==3.0.0
    ```
 
@@ -129,5 +123,4 @@ Lista completa y versiones exactas en `requirements.txt`.
 
 ## Resolución de problemas
 
-- **`ModuleNotFoundError: fairlearn`** — instala con `pip install fairlearn==0.12.0` (problema encontrado en Colab).
 - **`xgboost` falla al importar en macOS** — instala primero `libomp`: `brew install libomp`.
