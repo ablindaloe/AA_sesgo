@@ -1,0 +1,11 @@
+pandas==2.2.3
+numpy==2.0.2
+matplotlib==3.10.0
+seaborn==0.13.2
+scikit-learn==1.6.1
+xgboost==3.0.0
+shap==0.46.0
+fairlearn==0.12.0
+jupyter==1.1.1
+notebook==7.3.2
+ipykernel==6.29.5
